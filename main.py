@@ -13,12 +13,22 @@ if __name__ == "__main__":
         ('BTC/USDT', 'BTC/USDT:USDT-260925'),
         ('BTC/USDT', 'BTC/USDT:USDT-260626'),
         ('BTC/USDT', 'BTC/USDT:USDT-260327'),
+        ('BTC/USDT:USDT-260327', 'BTC/USDT:USDT-260626'),
+        ('BTC/USDT:USDT-260327', 'BTC/USDT:USDT-260925'),
+        ('BTC/USDT:USDT-260327', 'BTC/USDT:USDT-261225'),
         ('ETH/USDT', 'ETH/USDT:USDT-261225'),
         ('ETH/USDT', 'ETH/USDT:USDT-260626'),
         ('ETH/USDT', 'ETH/USDT:USDT-260327'),
+        ('ETH/USDT:USDT-260327', 'ETH/USDT:USDT-261225'),
+        ('ETH/USDT:USDT-260327', 'ETH/USDT:USDT-260626'),
         ('MNT/USDT', 'MNT/USDT:USDT-260227'),
+        ('MNT/USDT:USDT-260123', 'MNT/USDT:USDT-260227'),
         ('SOL/USDT', 'SOL/USDT:USDT-260227'),
+        ('SOL/USDT:USDT-260123', 'SOL/USDT:USDT-260227'),
         ('XRP/USDT', 'XRP/USDT:USDT-260227'),
+        ('XRP/USDT:USDT-260123', 'XRP/USDT:USDT-260227'),
+        ('DOGE/USDT', 'DOGE/USDT:USDT-260227'),
+        ('DOGE/USDT:USDT-260123', 'DOGE/USDT:USDT-260227')
     ]
     processes = []
     for spot_pair, future_pair in trading_pairs_list:

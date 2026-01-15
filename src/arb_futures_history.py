@@ -13,8 +13,9 @@ PERCENTS = 0.7
 
 exchange = ccxt.bybit()
 #exchange = ccxt.gateio()
-symbol_future = 'XRP/USDT:USDT-260116'#'ETH/USDT:USDT-260925'#'BTC/USDT:USDT-260925' 'ETH/USDT:USDT-260925'
-symbol_spot = 'XRP/USDT'#'ETH/USDC'#'WBTC/USDT'
+
+symbol_future = 'SOL/USDT:USDT-260227'#'ETH/USDT:USDT-260925'#'BTC/USDT:USDT-260925' 'ETH/USDT:USDT-260925'
+symbol_spot = 'SOL/USDT:USDT-260123'#'ETH/USDC'#'WBTC/USDT'
 #symbol_spot = 'BTC/USDT'
 #symbol_2 = 'BTC/USDT:USDT-260130'
 
