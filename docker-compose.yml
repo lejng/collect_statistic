@@ -1,0 +1,11 @@
+services:
+  arbitrage-bot:
+    build: .
+    restart: always
+    volumes:
+      - ./data:/app/data  # Связываем папку на сервере с папкой в контейнере
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"   # Ограничиваем размер логов консоли
+        max-file: "3"
